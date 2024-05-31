@@ -18,6 +18,7 @@ namespace pipelines_dotnet_core.Controllers
 
         public IActionResult Privacy()
         {
+            Console.WriteLine("change directly to main");
             return View();
         }
 
